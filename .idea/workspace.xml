@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f437c76-4ad8-4128-8eb1-ef987047fe0b" name="Changes" comment="">
+    <list default="true" id="9f437c76-4ad8-4128-8eb1-ef987047fe0b" name="Changes" comment="composer update for user authenticate and hash pass">
+      <change beforePath="$PROJECT_DIR$/.idea/meetMe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/meetMe.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,9 +195,22 @@
       <updated>1762421426491</updated>
       <workItem from="1762421428155" duration="4622000" />
     </task>
+    <task id="LOCAL-00001" summary="composer update for user authenticate and hash pass">
+      <option name="closed" value="true" />
+      <created>1762447219223</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1762447219223</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="composer update for user authenticate and hash pass" />
+    <option name="LAST_COMMIT_MESSAGE" value="composer update for user authenticate and hash pass" />
   </component>
 </project>
