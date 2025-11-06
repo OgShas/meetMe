@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomeController!{% endblock %}
+
+{% block body %}
+
+    <div class="container mt-5">
+
+        <h1 class="text-primary">Hello {{ controller_name }}! ✅</h1>
+
+        <!-- React компонент -->
+        <div id="react-root"></div>
+
+        <!-- Stimulus контролер -->
+        <div data-controller="example" class="alert alert-warning mt-3">
+            Тестов текст за Stimulus
+        </div>
+
+    </div>
+
+{% endblock %}
