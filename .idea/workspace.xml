@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f437c76-4ad8-4128-8eb1-ef987047fe0b" name="Changes" comment="create user entity ,form ,authentication">
+    <list default="true" id="9f437c76-4ad8-4128-8eb1-ef987047fe0b" name="Changes" comment="fix registration">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Security/UserAuthenticator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Security/UserAuthenticator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/security/login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/security/login.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +19,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;OgShas&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:OgShas/meetMe.git&quot;,
+    &quot;accountId&quot;: &quot;0f60c235-f92d-4de5-b8e3-652080e45e37&quot;
+  }
+}</component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\laragon\bin\php\php-8.1.10-Win32-vs16-x64\php.exe">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
@@ -196,6 +204,8 @@
       <option name="presentableId" value="Default" />
       <updated>1762421426491</updated>
       <workItem from="1762421428155" duration="4622000" />
+      <workItem from="1762525560838" duration="18000" />
+      <workItem from="1762536527894" duration="317000" />
     </task>
     <task id="LOCAL-00001" summary="composer update for user authenticate and hash pass">
       <option name="closed" value="true" />
@@ -213,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762448424671</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix registration">
+      <option name="closed" value="true" />
+      <created>1762449580949</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1762449580949</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,6 +240,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="composer update for user authenticate and hash pass" />
     <MESSAGE value="create user entity ,form ,authentication" />
-    <option name="LAST_COMMIT_MESSAGE" value="create user entity ,form ,authentication" />
+    <MESSAGE value="fix registration" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix registration" />
   </component>
 </project>
