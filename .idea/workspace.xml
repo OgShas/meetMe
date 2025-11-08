@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f437c76-4ad8-4128-8eb1-ef987047fe0b" name="Changes" comment="fix registration">
+    <list default="true" id="9f437c76-4ad8-4128-8eb1-ef987047fe0b" name="Changes" comment="test user registration - ok">
+      <change beforePath="$PROJECT_DIR$/.idea/meetMe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/meetMe.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AdminController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,6 +162,9 @@
       <path value="$PROJECT_DIR$/vendor/sebastian/version" />
       <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
       <path value="$PROJECT_DIR$/vendor/symfony/webpack-encore-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php83" />
+      <path value="$PROJECT_DIR$/vendor/symfony/clock" />
+      <path value="$PROJECT_DIR$/vendor/psr/clock" />
     </include_path>
   </component>
   <component name="ProjectColorInfo">{
@@ -205,7 +212,7 @@
       <updated>1762421426491</updated>
       <workItem from="1762421428155" duration="4622000" />
       <workItem from="1762525560838" duration="18000" />
-      <workItem from="1762536527894" duration="317000" />
+      <workItem from="1762536527894" duration="3023000" />
     </task>
     <task id="LOCAL-00001" summary="composer update for user authenticate and hash pass">
       <option name="closed" value="true" />
@@ -231,7 +238,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762449580949</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="test user registration - ok">
+      <option name="closed" value="true" />
+      <created>1762537187232</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1762537187232</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +256,7 @@
     <MESSAGE value="composer update for user authenticate and hash pass" />
     <MESSAGE value="create user entity ,form ,authentication" />
     <MESSAGE value="fix registration" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix registration" />
+    <MESSAGE value="test user registration - ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="test user registration - ok" />
   </component>
 </project>
