@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f437c76-4ad8-4128-8eb1-ef987047fe0b" name="Changes" comment="test user registration - ok">
-      <change beforePath="$PROJECT_DIR$/.idea/meetMe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/meetMe.iml" afterDir="false" />
+    <list default="true" id="9f437c76-4ad8-4128-8eb1-ef987047fe0b" name="Changes" comment="move to symfony 6.4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +209,7 @@
       <updated>1762421426491</updated>
       <workItem from="1762421428155" duration="4622000" />
       <workItem from="1762525560838" duration="18000" />
-      <workItem from="1762536527894" duration="3023000" />
+      <workItem from="1762536527894" duration="8882000" />
     </task>
     <task id="LOCAL-00001" summary="composer update for user authenticate and hash pass">
       <option name="closed" value="true" />
@@ -246,7 +243,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762537187232</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="move to symfony 6.4">
+      <option name="closed" value="true" />
+      <created>1762586752402</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1762586752402</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,6 +262,7 @@
     <MESSAGE value="create user entity ,form ,authentication" />
     <MESSAGE value="fix registration" />
     <MESSAGE value="test user registration - ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="test user registration - ok" />
+    <MESSAGE value="move to symfony 6.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="move to symfony 6.4" />
   </component>
 </project>

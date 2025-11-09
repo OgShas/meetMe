@@ -1,9 +1,7 @@
 security:
-    # Password hashing for users
     password_hashers:
         Symfony\Component\Security\Core\User\PasswordAuthenticatedUserInterface: 'auto'
 
-    # Load users from the database via User entity
     providers:
         app_user_provider:
             entity:
@@ -21,25 +19,28 @@ security:
             custom_authenticator: App\Security\UserAuthenticator
             logout:
                 path: app_logout
-                # Optional: redirect somewhere after logout
-                # target: app_home
-
             remember_me:
                 secret: '%kernel.secret%'
-                lifetime: 604800   # 7 days
+                lifetime: 604800
                 path: /
                 always_remember_me: true
 
-    # Role Inheritance (Admin inherits all User permissions)
     role_hierarchy:
         ROLE_ADMIN: ROLE_USER
 
-    # Route Access Rules
     access_control:
-        - { path: ^/admin, roles: ROLE_ADMIN }   # Only admin can access /admin
-        - { path: ^/login, roles: PUBLIC_ACCESS } # Allow login page publicly
-        - { path: ^/register, roles: PUBLIC_ACCESS } # Allow registration publicly
-        - { path: ^/, roles: ROLE_USER }         # All other pages require login
+        # 1) Home page е публична
+        - { path: ^/$, roles: PUBLIC_ACCESS }
+
+        # 2) Login и Register също публични
+        - { path: ^/login, roles: PUBLIC_ACCESS }
+        - { path: ^/register, roles: PUBLIC_ACCESS }
+
+        # 3) Admin само за ROLE_ADMIN
+        - { path: ^/admin, roles: ROLE_ADMIN }
+
+        # 4) Всичко останало: трябва логнат потребител
+        - { path: ^/, roles: ROLE_USER }
 
 when@test:
     security:
